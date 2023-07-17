@@ -22,7 +22,7 @@ So recently I bought a Razer Kishi V2 mobile controller for my Pixel. I've been 
 2. Locate the appropriate Factory Image for your specific Pixel device by matching the Build Number in Settings -> About Phone with the Version number on the website. Click on the "Link" button to download the ZIP file.
 
 Optional:
-If you want to check if the zip data is not corrupt use my tool to computer the SHA256 Hash and
+If you want to check if the zip data is not corrupt use my tool to compute the SHA256 Hash and
 match it to the one provided by google.
 https://github.com/MitchellKopczyk/Hasher
 
