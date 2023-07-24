@@ -91,6 +91,6 @@ fastboot --version
     fastboot reboot
     ```
 
-Congratulations! Your Pixel device is now rooted! Please note that updating your phone in the future will require repeating these steps since the boot image will be overwritten.
+Congratulations! Your Pixel device is now rooted! If Google pushes a OTA (Over The Air) software update your will have a new boot.img. So, this will have to be patched again. Magisk actually can do this so you don't need to repeat these steps. You find more about this online.
 
 Remember, rooting your device has its risks, however it's fairly simple and in general if you follow the steps and understand them you shouldn't really have any issues.
