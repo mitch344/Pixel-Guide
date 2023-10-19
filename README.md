@@ -135,7 +135,7 @@ fastboot --version
     
 10. Then wait until the flashing completes. Your phone will reboot into the newly installed system.
 
-**Heads up for rolling back to 13:**
+**Heads up for rolling back to 12:**
 
 The Android 13 update for Pixel 6, Pixel 6 Pro, and the Pixel 6a contains a bootloader update that increments the anti-roll back version for the bootloader. After flashing an Android 13 build on these devices you will not be able to flash and boot older Android 12 builds.
 
