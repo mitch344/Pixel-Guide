@@ -63,7 +63,7 @@ fastboot --version
 
 16. Power off your Pixel device. Press and hold both the Volume Down and Power buttons to boot into the bootloader menu.
 
-17. Open a terminal or command prompt on your PC and navigate to the directory where you installed the ADB and Fastboot binaries.
+17. Open a terminal or command prompt on your PC.
 
 18. In the terminal or command prompt, enter the following command:
     <br/>To check if you device is connected correctly:
@@ -94,3 +94,49 @@ fastboot --version
 Congratulations! Your Pixel device is now rooted! If Google pushes a OTA (Over The Air) software update your will have a new boot.img. So, this will have to be patched again. Magisk actually can do this patch for you so you don't need to repeat these steps. You can find more about this online.
 
 Remember, rooting your device has its risks, however it's fairly simple and in general if you follow the steps and understand them you shouldn't really have any issues.
+
+## Downgrading Pixel from Android 14 to 13
+
+**Disclaimer:
+This will wipe all the data off your phone please backup before proceeding.**
+
+1. Go to the official Google Android Developers website: [https://developers.google.com/android/images](https://developers.google.com/android/images).
+
+2. Locate the appropriate Factory Image for your specific Pixel device. Click on the "Link" button to download the ZIP file.
+
+3. Extract the downloaded ZIP file
+
+4. Inside the extracted folder you should see a flash-all.sh (shell script) and a flash-all.bat
+
+5. Enable "USB debugging" on your device under System->Developer options.
+
+6. Install the ADB and Fastboot binaries on your PC. You can find them from the official Android SDK Platform-Tools: [https://developer.android.com/studio/releases/platform-tools](https://developer.android.com/studio/releases/platform-tools).
+
+```
+#Downloading via apt
+sudo apt install -y android-tools-adb android-tools-fastboot
+#Verify
+adb version
+fastboot --version
+```
+
+7. Make sure your pixel device is connected to your PC using the Type C USB cable. Power off your Pixel device. Press and hold both the Volume Down and Power buttons to boot into the bootloader menu.
+    
+8. Open a terminal or command prompt on your PC.
+
+9. Navigate to the directory of the scripts. Then execute your script. I also recommend opening the script in text editor and going through the commands. For Windows use the flash-all.bat script instead.
+    ```
+    #mac or linux
+    sh ./flash-all.sh
+
+    #windows
+    fash-all.bat
+    ```
+    
+10. Then wait until the flashing completes. Your phone will reboot into the newly installed system.
+
+**Heads up for rolling back to 13:**
+
+The Android 13 update for Pixel 6, Pixel 6 Pro, and the Pixel 6a contains a bootloader update that increments the anti-roll back version for the bootloader. After flashing an Android 13 build on these devices you will not be able to flash and boot older Android 12 builds.
+
+Method above was tested on my pixel 6a "bluejay" from 14.0.0 (UP1A.231005.007, Oct 2023) to 13.0.0 (TQ3A.230901.001, Sep 2023) 
