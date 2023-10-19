@@ -2,6 +2,8 @@
 
 **Disclaimer: Rooting your device may void your warranty and can potentially cause damage. Proceed at your own risk. Make sure to carefully follow the steps and understand the process before proceeding.**
 
+**Note: In theory, this guide could also be utilized to upgrade or downgrade the firmware/System Version of your Pixel device. To do so, simply omit the steps involving Magisk (rooting) and ensure the firmware you intend to flash is compatible with your device model.**
+
 ### Prerequisites
 
 - Pixel Device
