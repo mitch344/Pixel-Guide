@@ -1,5 +1,7 @@
 ## Rooting Guide for Pixel Devices
 
+<img src="android.png" width="300">
+
 **Disclaimer: Rooting your device may void your warranty and can potentially cause damage. Proceed at your own risk. Make sure to carefully follow the steps and understand the process before proceeding.**
 
 ### Prerequisites
