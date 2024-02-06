@@ -15,7 +15,7 @@ This will wipe all the data off your phone please backup before proceeding.**
 
 
 ### Why Rooting
-So recently I bought a Razer Kishi V2 mobile controller for my Pixel. I've been playing games on it but I've been wanting to play some games that are restricted to Nvidia Tegra devices. To get around this I would need to Root my phone so I can bypass this limitaions and install these apps which are not authorized to run on my pixel device which is running a tensor chip. There are a million other reasons to root as well but, I won't get into that.
+So recently I bought a Razer Kishi V2 mobile controller for my Pixel. I've been playing games on it but I've been wanting to play some games that are restricted to Nvidia Tegra devices. To get around this I would need to Root my phone so I can spoof my GPU vendor and install these apps which are not authorized to run on my pixel device which is running a tensor chip. There are a million other reasons to root as well but, I won't get into that.
 
 ### Instructions
 
